@@ -33,13 +33,6 @@ public class CITokenController {
 		return "This is spring-boot with docker";
 	}
 	
-	@GetMapping("/login")
-	public Boolean login(@AuthenticationPrincipal final UserDetails userdetails)
-	{
-		String user=userdetails.getUsername();
-		Collection<? extends GrantedAuthority> authUser=userdetails.getAuthorities();
-		System.out.println("++++++++++++++"+user);
-		return true;
-	}
+
 
 }
