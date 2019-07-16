@@ -30,7 +30,7 @@ public class CITokenController {
 	@GetMapping("/example")
 	public String getStringObhect()
 	{
-		return "This is spring-boot with docker";
+		return "This is jenken with docker in AWS";
 	}
 	
 
