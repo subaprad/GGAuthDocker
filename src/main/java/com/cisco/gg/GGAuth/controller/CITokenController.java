@@ -30,7 +30,7 @@ public class CITokenController {
 	@GetMapping("/example")
 	public String getStringObhect()
 	{
-		return "CI/CD Pipeline for microservice in AWS";
+		return "CI/CD Pipeline for GG-microservice in AWS";
 	}
 	
 
